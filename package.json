@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "markdown-resume@0.1.0",
+      "/Users/daniel.harris/Projects/resume"
+    ]
+  ],
+  "_from": "markdown-resume@0.1.0",
+  "_id": "markdown-resume@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-NCTsBHRazcs0ixsH7sNJZnjnFRI=",
+  "_location": "/markdown-resume",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "markdown-resume@0.1.0",
+    "name": "markdown-resume",
+    "escapedName": "markdown-resume",
+    "rawSpec": "0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "0.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/markdown-resume/-/markdown-resume-0.1.0.tgz",
+  "_spec": "0.1.0",
+  "_where": "/Users/daniel.harris/Projects/resume",
+  "author": {
+    "name": "Brian Hann"
+  },
+  "bin": {
+    "md2resume": "./bin/md2resume"
+  },
+  "bugs": {
+    "url": "https://github.com/c0bra/markdown-resume-js/issues"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "commander": "*",
+    "marked": "*",
+    "mustache": "*",
+    "sqwish": "*",
+    "stylus": "*",
+    "temp": "*"
+  },
+  "description": "Turn a simple markdown document into a resume in HTML and PDF",
+  "devDependencies": {
+    "coffee-script": "*"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "assets/css",
+    "assets/templates"
+  ],
+  "homepage": "https://github.com/c0bra/markdown-resume-js#readme",
+  "keywords": [
+    "markdown",
+    "html",
+    "pdf",
+    "resume"
+  ],
+  "license": "BSD",
+  "main": "lib/markdown-resume.js",
+  "name": "markdown-resume",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/c0bra/markdown-resume-js.git"
+  },
+  "scripts": {
+    "prepublish": "cake build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
